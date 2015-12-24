@@ -1,4 +1,7 @@
 import Router from 'ampersand-router'
+import React from 'react'
+import LoginPage from './pages/login'
+import ReposPage from './pages/repos'
 
 export default Router.extend({
   routes: {
@@ -7,10 +10,10 @@ export default Router.extend({
   },
 
   home () {
-    console.log('home page')
+    React.render(<LoginPage />, document.body)
   },
 
   repos () {
-    console.log('repos')
+    React.render(<ReposPage />, document.body)
   }
 })
