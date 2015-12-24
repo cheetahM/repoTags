@@ -1,0 +1,19 @@
+{
+  "name": "repoTags",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cheetahM/repoTags.git"
+  },
+  "author": "Chetan Meshram <meshram.chetan@gmail.com>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/cheetahM/repoTags/issues"
+  },
+  "homepage": "https://github.com/cheetahM/repoTags"
+}
